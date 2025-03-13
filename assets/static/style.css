@@ -1,0 +1,67 @@
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 0;
+}
+
+a {
+    color: #2a99b6;
+}
+
+a:hover {
+    color: #33bbdf;
+}
+
+li .active {
+    color: #aaa;
+}
+header, footer, main {
+    width: 48rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header {
+    border-bottom: 1px solid #aaa;
+}
+
+header h1 {
+    color: #169bbd;
+    margin: 0;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 0.8rem 0 0;
+    padding: 0;
+}
+main p {
+    line-height: 1.8rem;
+}
+footer {
+    border-top: 1px solid #aaa;
+}
+footer small {
+    color: #aaa;
+}
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+.disabled {
+    color: #aaa;
+}
+@media screen and (max-width: 900px) {
+    header, footer, main {
+        width: 100%;
+        margin: auto;
+    }
+}

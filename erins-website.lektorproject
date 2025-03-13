@@ -1,0 +1,8 @@
+[project]
+name = Erin's Website
+
+[packages]
+lektor-surge = 0.3
+
+[servers.surge]
+target = surge:erind.surge.sh
