@@ -5,15 +5,15 @@ body {
 }
 
 a {
-    color: #2a99b6;
+    color: #134653;
 }
 
 a:hover {
-    color: #33bbdf;
+    color: #0E4858;
 }
 
 li .active {
-    color: #aaa;
+    color: #424242;
 }
 header, footer, main {
     width: 48rem;
@@ -22,11 +22,11 @@ header, footer, main {
 }
 
 header {
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #424242;
 }
 
 header h1 {
-    color: #169bbd;
+    color: #134653;
     margin: 0;
     font-weight: 600;
     font-size: 2rem;
@@ -47,17 +47,17 @@ main p {
     line-height: 1.8rem;
 }
 footer {
-    border-top: 1px solid #aaa;
+    border-top: 1px solid #424242;
 }
 footer small {
-    color: #aaa;
+    color: #424242;
 }
 .pagination {
     display: flex;
     justify-content: space-between;
 }
 .disabled {
-    color: #aaa;
+    color: #424242;
 }
 @media screen and (max-width: 900px) {
     header, footer, main {
